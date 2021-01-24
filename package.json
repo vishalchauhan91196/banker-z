@@ -2,10 +2,10 @@
     "name": "banker-z",
     "version": "1.0.0",
     "description": "Banking Application",
-    "main": "index.html",
+    "default": "index.html",
     "scripts": {
         "start": "parcel index.html",
-        "build": "parcel build index.html"
+        "build": "parcel build index.html --dist-dir ./dist"
     },
     "author": "Vishal Chauhan",
     "license": "ISC",
